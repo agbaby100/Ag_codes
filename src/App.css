@@ -1,0 +1,7 @@
+@import "tailwindcss";
+*{
+  padding: 7px;
+}
+html {
+  scroll-behavior: smooth;
+}
