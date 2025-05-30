@@ -9,6 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
+      <Hero />
+      <Skills />
+      <Contact />
       <Routes>
         <Route path="/" element={
           <>
