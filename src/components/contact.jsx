@@ -104,16 +104,17 @@ export default function Contact() {
                         <button
                             type="submit"
                             disabled={isSubmitting}
-                            className={`justify-self-start px-8 py-3 bg-gradient-to-r from-blue-500 to-indigo-500
+                            className={`justify-self-start px-8 py-3 bg-blue-500
                          text-white font-semibold rounded-lg shadow-md cursor-pointer
                          hover:shadow-lg hover:brightness-110 transition
                          ${isSubmitting ? 'opacity-50 cursor-not-allowed' : ''}`}
                         >
                             {isSubmitting ? 'Sending...' : 'Send Message'}
                         </button>
-                        <button className="bg-blue-50 p-2">Contact</button>
+                                
                     </form>
                 </div>
+                <h1 className="text-center text-black/50">2025 &mdash; built by Godwin</h1>
             </div>
         </section>
     );

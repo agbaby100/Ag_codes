@@ -37,43 +37,39 @@ export default function Skills() {
         {
             name: 'HTML5',
             logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg',
-            color: 'from-orange-400 to-red-500',
-            colorFallback: 'linear-gradient(135deg, #fb923c, #ef4444)',
+            color: 'bg-red-500',
+            colorFallback: 'red',
             level: 95
         },
         {
             name: 'CSS3',
             logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg',
-            color: 'from-blue-400 to-blue-600',
-            colorFallback: 'linear-gradient(135deg, #60a5fa, #2563eb)',
+            color: 'bg-blue-400',
+            colorFallback: '',
             level: 90
         },
         {
             name: 'JavaScript',
             logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg',
-            color: 'from-yellow-400 to-yellow-600',
-            colorFallback: 'linear-gradient(135deg, #facc15, #ca8a04)',
+            color: 'bg-yellow-400',
             level: 88
         },
         {
             name: 'Tailwind CSS',
             logo: 'https://w7.pngwing.com/pngs/293/485/png-transparent-tailwind-css-hd-logo.png',
-            color: 'from-cyan-400 to-blue-500',
-            colorFallback: 'linear-gradient(135deg, #22d3ee, #3b82f6)',
+            color: 'bg-cyan-500',
             level: 92
         },
         {
             name: 'React',
             logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg',
-            color: 'from-blue-400 to-cyan-500',
-            colorFallback: 'linear-gradient(135deg, #60a5fa, #06b6d4)',
+            color: 'bg-blue-400',
             level: 85
         },
         {
             name: 'MySQL',
             logo: 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg',
-            color: 'from-blue-600 to-orange-500',
-            colorFallback: 'linear-gradient(135deg, #2563eb, #f97316)',
+            color: 'bg-teal-400',
             level: 50
         }
     ]
