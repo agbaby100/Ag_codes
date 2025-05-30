@@ -10,14 +10,14 @@ function App() {
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path="/" element={
+        <Route path="/AG-Codes" element={
           <>
             <Hero />
             <Skills />
             <Contact />
           </>
         } />
-        <Route path="/home" element={
+        <Route path="/AG-Codes/home" element={
           <>
             <Hero />
             <Skills />

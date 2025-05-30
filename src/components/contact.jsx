@@ -111,6 +111,7 @@ export default function Contact() {
                         >
                             {isSubmitting ? 'Sending...' : 'Send Message'}
                         </button>
+                        <button className="bg-blue-50 p-2">Contact</button>
                     </form>
                 </div>
             </div>
