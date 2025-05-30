@@ -173,7 +173,7 @@ export default function Navbar() {
                         </a>
                         <a
                             href="wa.me/2349137162359"
-                            onClick={(e) => handleNavClick(e, 'wa.me/2349137162359')}
+                            
                             className="block px-4 py-3 rounded-xl text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
                         >
                             Contact
