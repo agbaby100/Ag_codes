@@ -172,10 +172,11 @@ export default function Navbar() {
                             Projects
                         </a>
                         <a
-                            href="wa.me/2349137162359"
+                            href="https://wa.me/2349137162359"
+
+                            className="text-gray-600 hover:bg-black hover:text-white rounded-full px-4 py-2 text-sm font-medium transition-all duration-200 cursor-pointer"
                             target="_blank"
                             rel="noopener noreferrer"
-                            className="block px-4 py-3 rounded-xl text-base font-medium text-gray-600 hover:text-gray-800 hover:bg-gray-100 transition-colors duration-200 cursor-pointer"
                         >
                             Contact
                         </a>
