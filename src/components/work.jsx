@@ -28,7 +28,7 @@ export default function Work() {
     return (
         <section id="work" className="py-16 bg-white">
             <div className="max-w-7xl mx-auto px-4 ">
-                <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">My Work</h2>
+                <h2 className="text-3xl font-bold text-gray-800 mb-12 text-center">My Works</h2>
                 <div className="flex flex-wrap md:flex-row items-center justify-center gap-8 ">
                     {projects.map((project) => (
                         <a
