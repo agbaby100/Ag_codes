@@ -80,7 +80,7 @@ export default function Hero() {
 
                 <DotLottieReact
                     src="https://lottie.host/0fcdb90e-3ded-4c07-8349-214cbfffdd12/NuzR1IKfII.lottie"
-                    alt="Check Your Connect"
+                    alt="Check Your Connection"
                     background="transparent"
                     speed="5"
                     style={{

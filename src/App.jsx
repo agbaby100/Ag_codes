@@ -2,6 +2,7 @@ import NavBar from './components/navBar'
 import Hero from './components/hero'
 import Skills from './components/Skills'
 import Contact from './components/contact'
+import Work from './components/work'
 import './App.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
@@ -14,6 +15,7 @@ function App() {
           <>
             <Hero />
             <Skills />
+            <Work />
             <Contact />
           </>
         } />
@@ -21,6 +23,7 @@ function App() {
           <>
             <Hero />
             <Skills />
+            <Work />
             <Contact />
           </>
         } />
