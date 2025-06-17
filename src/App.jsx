@@ -10,10 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar />
-       <Hero />
-            <Skills />
-            <Work />
-            <Contact />
+      
       <Routes>
         <Route path="/" element={
           <>
