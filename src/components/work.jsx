@@ -158,13 +158,13 @@ export default function Work() {
                                     href={project.link}
                                     target="_blank"
                                     rel="noopener noreferrer"
-                                    className={`inline-flex items-center justify-center w-full px-4 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
+                                    className={`inline-flex items-center justify-center w-full px-4 py-3  bg-blue-800 text-white font-semibold rounded-lg hover:from-blue-700 hover:to-blue-800 transition-all duration-300 transform hover:scale-105 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 ${
                                         scrollDirection === 'up' ? 'hover:-translate-y-1' : 'hover:translate-y-0'
                                     }`}
                                 >
                                     <span>View Project</span>
                                     <svg
-                                        className={`ml-2 w-4 h-4 transition-transform duration-300 ${
+                                        className={`ml-2 w-8 h-8 transition-transform duration-300 ${
                                             scrollDirection === 'down' 
                                                 ? 'group-hover:translate-x-1' 
                                                 : 'group-hover:-translate-x-1'
